@@ -2,7 +2,9 @@
   "name": "@leismore/lmos-nodejs-error-handler",
   "version": "1.0.0",
   "description": "A general error handler for LMOS for Node.js project",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "type": "module",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,12 +14,35 @@
   },
   "keywords": [
     "Error",
-    "Handler"
+    "Error Handler",
+    "LMOS for Node.js",
+    "LMOS",
+    "Leismore OpenSource",
+    "Leismore",
+    "Node.js",
+    "NodeJS",
+    "Node"
   ],
-  "author": "Kyle Chine",
+  "author": {
+    "name": "Kyle Chine",
+    "url": "https://kyle-chine.leismore.co",
+    "email": "kyle.chine@leismore.co"
+  },
   "license": "AGPL-3.0-only",
   "bugs": {
     "url": "https://github.com/leismore/lmos-nodejs-error-handler/issues"
   },
-  "homepage": "https://github.com/leismore/lmos-nodejs-error-handler#readme"
+  "homepage": "https://github.com/leismore/lmos-nodejs-error-handler#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.6",
+    "@types/mocha": "^10.0.2",
+    "@types/node": "^18.17.19",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@leismore/lmos-nodejs-lmerror": "^1.0.0"
+  }
 }
