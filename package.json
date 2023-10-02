@@ -1,0 +1,23 @@
+{
+  "name": "@leismore/lmos-nodejs-error-handler",
+  "version": "1.0.0",
+  "description": "A general error handler for LMOS for Node.js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leismore/lmos-nodejs-error-handler.git"
+  },
+  "keywords": [
+    "Error",
+    "Handler"
+  ],
+  "author": "Kyle Chine",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/leismore/lmos-nodejs-error-handler/issues"
+  },
+  "homepage": "https://github.com/leismore/lmos-nodejs-error-handler#readme"
+}
