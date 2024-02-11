@@ -4,7 +4,7 @@ A general error handler for [LMOS for Node.js](https://nodejs.lmos.leismore.org)
 
 ## Environment
 
-* [Node.js](https://nodejs.org)          18
+* [Node.js](https://nodejs.org)          20
 * [Express.js](https://expressjs.com)    4
 
 ## Installation
