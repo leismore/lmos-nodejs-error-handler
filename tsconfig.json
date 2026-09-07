@@ -1,18 +1,17 @@
 {
   "compilerOptions":
   {
-    "lib":                          ["ES2017"],
-    "target":                        "ES2017",
-    "baseUrl":                       "./src/",
-    "outDir":                        "./dist/",
+    "lib":                          ["ES2024"],
+    "target":                        "ES2024",
     "module":                        "nodenext",
     "moduleResolution":              "nodenext",
-    "resolveJsonModule":             true,
     "strict":                        true,
+    "resolveJsonModule":             true,
     "declaration":                   true,
     "allowJs":                       false,
-    "checkJs":                       false
+    "rootDir":                       ".",
+    "outDir":                        "dist",
+    "types":                        ["node", "express", "supertest"]
   },
-  "include":            ["./src/"],
-  "exclude":            ["./node_modules/", "./dist/", "./.git/", "./test/"]
+  "include":            ["src/**/*", "test/**/*"]
 }

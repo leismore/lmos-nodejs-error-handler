@@ -1,11 +1,19 @@
 # lmos-nodejs-error-handler
 
-A general error handler for [LMOS for Node.js](https://nodejs.lmos.leismore.org) project
+A general error handler for [LMOS for Node.js](https://nodejs.lmos.leismore.org) project.
+
+## Motivation
+
+To support my customised Error class: [@leismore/lmos-nodejs-lmerror](https://www.npmjs.com/package/@leismore/lmos-nodejs-lmerror), I wrote this package. It supports:
+
+* Logging error information
+* Outputting a customised HTTP response based on LMError object
 
 ## Environment
 
-* [Node.js](https://nodejs.org)          20
-* [Express.js](https://expressjs.com)    4
+* [Node.js](https://nodejs.org)                 24
+* [Express.js](https://expressjs.com)           5
+* [TypeScript](https://www.typescriptlang.org)  7
 
 ## Installation
 
@@ -30,19 +38,25 @@ app.use(error_handler);
 // ...
 ```
 
-## Donation
-
-[![Donate with PayPal button](https://www.paypalobjects.com/en_AU/i/btn/btn_donateCC_LG.gif "PayPal - The safer, easier way to pay online!")](https://www.paypal.com/donate/?hosted_button_id=7JP6Y2PKH3G8L)
-
 ## License
 
-© [Leismore](https://www.leismore.co) 2024
+© [Leismore™](https://www.leismore.co) 2026
 
-GNU AFFERO GENERAL PUBLIC LICENSE v3
+[MIT License](https://github.com/leismore/lmos-nodejs-error-handler/blob/main/LICENSE)
+
+## Donation
+
+* [Leismore™](https://github.com/sponsors/leismore) on GitHub
+
+Help us to pay our bills, so we can focus on developing and maintaining this project.
 
 ## Authors
 
-* [Kyle Chine](https://kyle-chine.leismore.co) since 06 Sep 2019
+* [Kyle Chine / Kai Qin / 秦凯](https://kyle.chine.leismore.org) since 06 Sep 2019
+
+## Dependencies
+
+* [@leismore/lmos-nodejs-lmerror](https://www.npmjs.com/package/@leismore/lmos-nodejs-lmerror)
 
 ## Credits
 
@@ -51,10 +65,8 @@ GNU AFFERO GENERAL PUBLIC LICENSE v3
 
 
 
----
+------------------------------------------------------------------------------
 
-[![Leismore Logo](https://logos.leismore.co/en/3-0-0/light/textual-margins.svg)](https://lmos.leismore.org)
+Product of [Leismore™ OpenSource](https://lmos.leismore.org) Project
 
-Product of [Leismore OpenSource](https://lmos.leismore.org)
-
-[Leismore](https://www.leismore.co) (Australian Business Number: 25 935 862 619) is *your affordable and reliable business software provider* since 2021
+Supported by [Leismore™](https://www.leismore.co) (Australian Business Number: 25 935 862 619)
