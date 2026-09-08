@@ -1,6 +1,6 @@
 {
   "name": "@leismore/lmos-nodejs-error-handler",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A general error handler for LMOS for Node.js project",
   "main": "./dist/src/index.js",
   "type": "module",
@@ -28,9 +28,9 @@
     "Node"
   ],
   "author": {
-    "name": "Kyle Chine",
-    "url": "https://kyle.chine.leismore.org",
-    "email": "kyle.chine@leismore.co"
+    "name": "Kyle Chinn",
+    "url": "https://kyle.chinn.leismore.org",
+    "email": "kyle.chinn@leismore.co"
   },
   "funding": {
     "type": "github",
@@ -50,7 +50,7 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
-    "@leismore/lmos-nodejs-lmerror": "^3.0.2",
+    "@leismore/lmos-nodejs-lmerror": "^3.0.4",
     "express": "^5.2.1"
   }
 }

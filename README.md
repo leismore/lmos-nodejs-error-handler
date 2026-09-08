@@ -52,7 +52,7 @@ Help us to pay our bills, so we can focus on developing and maintaining this pro
 
 ## Authors
 
-* [Kyle Chine / Kai Qin / 秦凯](https://kyle.chine.leismore.org) since 06 Sep 2019
+* [Kyle Chinn / Kai Qin / 秦凯](https://kyle.chinn.leismore.org) since 06 Sep 2019
 
 ## Dependencies
 
